@@ -15,4 +15,8 @@ object Test1 {
   def first(): Unit = {
     println("first")
   }
+
+  def second(): Unit = {
+    println("second")
+  }
 }
