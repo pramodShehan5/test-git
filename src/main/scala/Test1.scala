@@ -11,4 +11,8 @@ object Test1 {
       (srcBaseDir, i) <- days.toVector.sorted.zipWithIndex
     } yield println(s"aaa $srcBaseDir and $i")
   }
+
+  def first(): Unit = {
+    println("first")
+  }
 }
