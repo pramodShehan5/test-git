@@ -19,4 +19,8 @@ object Test1 {
   def second(): Unit = {
     println("second")
   }
+
+  def third(): Unit = {
+    println("third")
+  }
 }
